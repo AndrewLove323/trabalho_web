@@ -1,0 +1,231 @@
+/*
+****** HEADER ******
+*/
+
+#header {
+    background-color: rgba(15, 235, 15, 0.70);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#logo,
+#menu {
+    padding: 10;
+}
+
+#header a:link,
+#header a:visited {
+    color: #551A8B;
+    padding: 8px 12px;
+}
+
+#header a:hover {
+    color: #0066CC;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+
+/*
+****** LIMPARA FORMATAÇÕES ******
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+****** FORMATAÇÕES GENÉRICAS ******
+*/
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #C4C4C4;
+}
+
+h1 {
+    color: #252525;
+    font-size: 40px;
+}
+
+h2 {
+    color: #10ec0d;
+}
+
+/*
+****** CONTENT ******
+*/
+
+#content {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#posts {
+    width: 660px;
+    float: left;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    text-align: justify;
+}
+
+.data-post {
+    font-size: 13px;
+    border-bottom: 1px solid #0066CC;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*
+****** RIGHT SIDE ******
+*/
+
+#right-side {
+    width: 240px;
+    float: right;
+
+}
+
+.content-right {
+    background: #FFFFFFFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post-right {
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+.img-post {
+    width: 620px;
+}
+
+/*
+****** FORMATAÇÃO LINKS ******
+*/
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+     color: #10ec0d;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*
+****** FOOTER ******
+*/
+
+#footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #FFFFFF;
+    color: #0066CC
+}
+
+body {
+    background-image: url("/OIP.png");
+    background-size: cover;
+    /* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    background-attachment: fixed;
+    /* Torna o fundo estático */
+    background-position: center 15%;
+    /* Ajusta verticalmente */
+    color: rgb(255, 0, 183);
+}
+
+.container {
+    margin: 0 auto;
+    width: 60vw;
+    background-color: #1A1E23;
+    border-radius: 5px;
+    padding: 5px 0px 5px 0px;
+}
+
+.title {
+    font-size: 35px;
+}
+
+.container-title {
+    padding-top: 5px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container-body {
+    padding: 10px;
+
+}
+
+/*
+****** Fomulario de contato ******
+*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+form input, form textarea, form button{
+    background-color: #000000;
+    border: 1px solid #252525;
+    padding: 5px;
+    color: white;
+}
+
+
+/*
+****** Portfólio ******
+*/
+
+.projeto{
+    background-color: #adadad;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1 solid black;
+    border-radius: 5px;
+    color: rgb(11, 30, 138);
+
+}
+
+.projeto h3{
+    margin-bottom: 10px;
+}
+
+.projeto a{
+    background-color: green;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
