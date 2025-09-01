@@ -45,11 +45,6 @@
 ****** FORMATAÇÕES GENÉRICAS ******
 */
 
-body {
-    font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #C4C4C4;
-}
 
 h1 {
     color: #252525;
@@ -146,16 +141,15 @@ a:hover {
 }
 
 body {
-    background-image: url("/OIP.png");
+    background-image: url("OIP.png");
     background-size: cover;
-    /* Faz a imagem cobrir toda a tela */
     background-repeat: no-repeat;
-    /* Evita repetição da imagem */
     background-attachment: fixed;
-    /* Torna o fundo estático */
     background-position: center 15%;
-    /* Ajusta verticalmente */
     color: rgb(255, 0, 183);
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #C4C4C4;
 }
 
 .container {
